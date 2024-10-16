@@ -1,0 +1,7 @@
+package-lock.json
+node_modules
+npm-debug.log
+# تجاهل كل شيء في مجلد database
+database/*
+# استثناء ملف database.json
+!database/database.json

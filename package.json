@@ -1,0 +1,36 @@
+{
+  "name": "islamicquizapi",
+  "version": "1.0.0",
+  "description": "قاعدة بيانات وواجهة برمجة تطبيقات API لتقديم أسئلة لتقيم مستواك في العلوم الشرعية وتطوير حصيلتك العلمية في مجالات متنوعة، جميع الإجابات مصدرها موقع الدرر السنية.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "dev": "nodemon src/index.mjs",
+    "db": "node unused/convertToSqliteAndCsv.mjs"
+  },
+  "keywords": [
+    "quiz",
+    "islamic",
+    "API",
+    "tafsir",
+    "sharia",
+    "questions",
+    "الدين",
+    "العلوم-الشرعية"
+  ],
+  "author": "Rayan Almalki (rn0x)",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "fs-extra": "^11.2.0",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "better-sqlite3": "^11.3.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "nodemon": "^3.1.7"
+  }
+}
